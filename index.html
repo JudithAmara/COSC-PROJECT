@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <style>
+       body{
+        background-color: bisque;
+       }
+    .container1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        width: 400px;
+        border-radius: 20px;
+        height: 300px;
+    }
+    .container2{
+        padding: 90px;
+    }
+    .container3{
+        padding-left: 15px;
+        text-align: left;
+    }
+    .container3 h3{
+        font-size: 30px;
+    }
+    .container3 h4{
+        display: block;
+        font-size: 20px;
+    }
+    .container3 p{
+    display: block;
+    font-size: 20px;
+    letter-spacing: 2px;
+    }
+    .container4{
+        display: flex;
+    }
+    .timer1{
+        background-color: aqua;
+        color: black;
+        border: 3px solid aqua;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    .timer2{
+        background-color: aqua;
+        color: black;
+        border: 3px solid aqua;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;  
+    }
+    .timer3{
+        background-color: aqua;
+        color: black;
+        border: 3px solid aqua;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    .timer4{
+        background-color: aqua;
+        color: black;
+        border: 3px solid aqua;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    @media(max-width:720px){
+        .container1{
+            display: flex;
+            flex-direction: column;
+        }
+        img{
+            width: 350px;
+        }
+    }
+
+
+
+            
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="container2">
+            <img src="download.jpg" alt="iphone giveaway">
+        </div>
+        <div class="container3">
+            <h3>Iphone Giveaway</h3>
+            <h4 id="countdown">Giveaway ends on saturday 5th march 2024 by 12:00am</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                 Doloribus architecto perferendis accusantium quam cum veritatis, illum culpa illo,
+                  magni porro doloremque consequatur sit. Nihil magni corrupti magnam, voluptas iusto expedita?</p>
+            
+            <div class="container4">
+                <div class="timer1">
+                    <div>
+                        <h4 id="days">00</h4>
+                        <span>Days</span>
+                    </div>
+                </div>
+                <div class="timer2">
+                    <div>
+                        <h4 id="hours">00</h4>
+                        <span>Hours</span>
+                    </div>
+                </div>
+                <div class="timer3">
+                    <div>
+                        <h4 id="minutes">00</h4>
+                        <span>Minutes</span>
+                    </div>
+                </div>
+                <div class="timer4">
+                    <div>
+                        <h4 id="seconds">00</h4>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!--javascript-->
+<script src="script.js"></script>
+</html>
